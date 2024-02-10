@@ -1,0 +1,112 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav > a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  align-items: center;
+  background-color: #fff7ed;
+}
+
+.header > h1 {
+  font-weight: bold;
+}
+
+.header > ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.header > ul > li {
+  list-style: none;
+}
+.header > ul > li > a {
+  text-decoration: none;
+  color: #4d4d4d;
+}
+
+.Home-banner {
+  height: 340px;
+  padding: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home-btn {
+  padding: 10px;
+  background-color: #ff8c38;
+  border: 2px solid #ff8c38;
+  border-radius: 5px;
+  margin-top: 40px;
+  width: 100%;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.VanCard {
+  width: 40vw;
+}
+
+.VanCard > img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.VanCardDetail {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+}
+
+.VanCardBtn {
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 2px solid #e2562b;
+  background-color: #e2562b;
+  color: white;
+}
+
+.VanCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vw;
+  margin: 40px 5vw;
+}
+
+
+footer{
+  background-color: #161616;
+  color: #AAAAAA;
+  height: 74px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  font-weight: 500;
+}
+
+.site-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.active{
+  text-decoration: underline;
+}
